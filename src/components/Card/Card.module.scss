@@ -1,0 +1,52 @@
+.card {
+  border: 1px solid #f3f3f3;
+  padding: 30px;
+  width: 220px;
+  border-radius: 40px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  margin-bottom: 40px;
+  margin-right: 30px;
+
+  &:hover {
+    box-shadow: 0px 20px 35px 0px #0000000f;
+    transform: translateY(-5px);
+  }
+
+  .plus {
+    cursor: pointer;
+  }
+
+  .favorite {
+    position: absolute;
+    cursor: pointer;
+  }
+
+  span {
+    font-size: 13px;
+    opacity: 0.5;
+    text-transform: uppercase;
+  }
+
+  b {
+    font-size: 13px;
+  }
+
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  div {
+    button {
+      background: #fff;
+      border: 1px solid #d1d1d1;
+      box-sizing: border-box;
+      border-radius: 8px;
+      height: 32px;
+      width: 32px;
+      cursor: pointer;
+
+      box-shadow: 0px 14px 30px 0px #0000000d;
+    }
+  }
+}
